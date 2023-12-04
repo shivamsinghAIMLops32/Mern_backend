@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*.bakgrnd{
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5);
+}*/
+
+.title{
+ font-size: 50px;
+ font-weight: 200;
+  text-align: center;
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+  margin-top: 1cm;
+}
+
+.title::selection{
+  color: rgb(164, 19, 19);
+  background-color: white;
+}
+
+
+#name{
+  font-style: italic;
+  margin-left: 40%;
+  font-weight: 700;
+}
+
+#name::selection{
+  color : violet;
+}
+
+.bgimage{
+
+}
