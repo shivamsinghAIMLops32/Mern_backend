@@ -1,1 +1,1 @@
-console.log(gcd);
+fib(k)
